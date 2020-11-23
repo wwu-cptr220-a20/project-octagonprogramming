@@ -1,0 +1,109 @@
+* {
+    position: relative;
+}
+
+#containerDiv {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.topnav .logo{
+    background-image: url("../img/iconfinder_rss_feed_cast_streaming_5340270.png");
+    padding-left: 1em;
+    padding-right: 1em;
+    left: true;
+    contain: content;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 50px;
+    transition-duration: 1s;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    height: 75px;
+    transition-timing-function: linear;
+}
+.topnav .icon {
+    display: none;
+}
+.topnav .searchBox{
+    float: right;
+}
+.topnav .searchBox input{
+    vertical-align: bottom;
+}
+
+.searchBox {
+    float: right;
+}
+
+.searchBox input {
+    color: black;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: .5rem;
+    vertical-align: bottom;
+}
+
+.searchBox button {
+    height: 2.5rem;
+    font-size: 1.5rem;
+    padding: .3rem;
+}
+
+.topic {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: .5rem 0;
+    padding: .5rem;
+    border: 1px solid gray;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topic h2 {
+    text-align: center;
+}
+
+.topic p {
+    font-size: 16px;
+}
+
+.apps {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: .5rem 0;
+    padding: .5rem;
+    border: 1px solid gray;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+  padding-top: 1rem;
+  font-size: 70%;
+}
