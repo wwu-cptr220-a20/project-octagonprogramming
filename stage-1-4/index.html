@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Stacy">
+    <meta name="description" content="Stage 0 project description">
+    <title>Stage 0</title>
+
+    <!--icon-->
+    <link rel="icon" 
+      type="image/png" 
+      href="img/iconfinder_rss_feed_cast_streaming_5340270.png">
+    <!--css links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container">
+    <video playsinline autoplay muted loop id="myVideo">
+        <source src="./img/hd0933.mp4" type="video/mp4">
+    </video>
+    <div class="container" id="containerDiv">
+        <!--Page Title Elements-->
+        <header id="header">
+            <div>
+                <div class="topnav" id="myTopnav">
+                    <a href="#"><span class="logo" aria-hidden="logo"> &nbsp;</span></a></li>
+                    <a href="index.html">Home</a>
+                    <a href="Upload.html">Upload</a>
+                    <a href="About.html">About</a>
+                    <a class="icon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <h1>Search for a video</h1>
+        </header>
+
+        <!--Topic Description-->
+        <main id="main">
+            <!-- Search form -->
+            <h2>Eventually adding a search function to find more videos</h2>
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <div id="search" class="container">
+                <!--Search Results Here-->
+            </div>
+
+            <footer class="footer">
+                <p>Author : <a href="https://github.com/octagonprogramming" meta="github">Michael Stacy</a></p>
+            </footer>
+        </main>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
